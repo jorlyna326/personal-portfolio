@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background: #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    color: blue;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+/* .header nav {
+    background: green;
+} */
+
+.header nav ul{
+    margin-right: 10px;
+}
+
+.header nav ul li{
+    display: inline;
+    padding: 5px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header nav ul li a{
+    text-decoration: none;
+}
