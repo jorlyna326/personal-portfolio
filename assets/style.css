@@ -2,6 +2,14 @@
     margin: 0;
     padding: 0;
 }
+
+header {
+    background-color: antiquewhite;
+    border: groove 2px black;
+    margin: 4px;
+    padding: 2px 2px 2px 2px;
+    color: chocolate;
+}
 /* ==========Navbar========*/
 .min-navbar {
 
@@ -82,9 +90,10 @@ p {
 }
 
 #p1 {
-    background-image: url("./images/360_F_300808649_zCM3DACzRfbgSaZ2RsyDLZqIsf6Nh3hW.jpeg") ;
-    background-repeat: no-repeat;
-    background-position: center; 
-    background-size: cover;
+    background-image: url("./images/rocks_water.jpeg") ;
+    /* background-repeat: no-repeat;
+    background-position: center;  
+    background-size: cover; */
+   background-size: 55%;
  
 }
