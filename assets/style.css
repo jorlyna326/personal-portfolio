@@ -8,7 +8,7 @@ header {
     border: groove 2px black;
     margin: 4px;
     padding: 2px 2px 2px 2px;
-    color: chocolate;
+    color: rgb(12, 58, 1);
 }
 /* ==========Navbar========*/
 .min-navbar {
@@ -69,18 +69,66 @@ nav li{
 
 /* ========Body=======*/
 body {
-    color: #ffffff;
+    color: #182201;
     font-family: "Raleway", sans-serif;
     background-color: lightgrey;
     overflow: hidden
     }
 h2 {
-    font-size: 35px;
+    font-size: 20px;
+    
 }
 p {
     font-size: 20px;
     line-height: 30px;
 }
+.about {
+    display: flex;
+    margin: 5px;
+    height: 150px;
+}
+.about div {
+    margin: 10px;
+    padding: 10px;    
+}
+.sectionHead {
+    border-right: 4mm ridge rgba(108, 114, 4, 0.6);
+    text-align: right;
+    display: inline-block;
+    width: 10%;
+    margin: 10px;
+    padding-bottom: 100px;
+    padding-right: 15px;
+    
+}
+.work {
+    display: flex;
+    margin: 5px;
+    height: 150px;
+}
+.work div {
+    margin: 10px;
+    padding: 10px;    
+}
+.container {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin: 4em 1em;
+    
+}
+
+
+
+.contact {
+    margin: 70px;
+    padding: 10px;
+    display: flex ;    
+    
+}
+  
+    
+
 
 .pcard {
     overflow: hidden;
@@ -88,12 +136,10 @@ p {
     height: 250px;
     margin: 5px;      
 }
-
-#p1 {
-    background-image: url("./images/rocks_water.jpeg") ;
-    /* background-repeat: no-repeat;
-    background-position: center;  
-    background-size: cover; */
-   background-size: 55%;
- 
+.pcard1,
+.pcard2,
+.pcard3 {
+    border: solid;
+    padding: 20px;
+    background-color:darkslategray;
 }
