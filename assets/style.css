@@ -85,10 +85,7 @@ section {
    align-items: stretch;
    justify-content: space-between;
 }
-/* .about div {
-    margin: 10px;
-    padding: 10px;    
-} */
+
 section h2 {
     border-right: 4mm ridge rgba(108, 114, 4, 0.6);
     text-align: right;
@@ -131,18 +128,4 @@ section div {
 
   
     
-/* 
 
-.pcard {
-    overflow: hidden;
-    width: 1600px;
-    height: 250px;
-    margin: 5px;      
-}
-.pcard1,
-.pcard2,
-.pcard3 {
-    border: solid;
-    padding: 20px;
-    background-color:darkslategray;
-} */
