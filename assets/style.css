@@ -11,6 +11,7 @@ header {
     color: rgb(12, 58, 1);
 }
 /* ==========Navbar========*/
+
 .min-navbar {
 
   background-color: rgba(211, 235, 226, 0.892); 
@@ -72,63 +73,65 @@ body {
     color: #182201;
     font-family: "Raleway", sans-serif;
     background-color: lightgrey;
-    overflow: hidden
     }
-h2 {
-    font-size: 20px;
-    
-}
+
 p {
     font-size: 20px;
     line-height: 30px;
 }
-.about {
+section {
     display: flex;
-    margin: 5px;
-    height: 150px;
+   flex-wrap: wrap;
+   align-items: stretch;
+   justify-content: space-between;
 }
-.about div {
+/* .about div {
     margin: 10px;
     padding: 10px;    
-}
-.sectionHead {
+} */
+section h2 {
     border-right: 4mm ridge rgba(108, 114, 4, 0.6);
     text-align: right;
-    display: inline-block;
+  flex: 0 0 20%;
     width: 10%;
-    margin: 10px;
-    padding-bottom: 100px;
-    padding-right: 15px;
-    
-}
-.work {
-    display: flex;
-    margin: 5px;
-    height: 150px;
-}
-.work div {
-    margin: 10px;
-    padding: 10px;    
-}
-.container {
-    display: flex;
-    width: 60%;
-    justify-content: space-between;
-    margin: 4em 1em;
-    
+    padding-right: 15px; 
+    font-size: 20px;
 }
 
+section div {
+    flex: 0 0 75%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project{
+    border: solid 3px black;
+    min-height: 200px;
+    max-height: 200px;
+    flex-basis: calc(50% - 1em);
+    margin: 7px;
+    background-color: #182201;
+}
+.pcard1{
+    min-height: 400px;
+    flex-basis: 100%;
+    background-image: url('./images/README-SneakPeak.png');
+    background-size: cover;
+}
 
 
 .contact {
-    margin: 70px;
-    padding: 10px;
-    display: flex ;    
+    display: flex;
     
 }
+
   
     
-
+/* 
 
 .pcard {
     overflow: hidden;
@@ -142,4 +145,4 @@ p {
     border: solid;
     padding: 20px;
     background-color:darkslategray;
-}
+} */
